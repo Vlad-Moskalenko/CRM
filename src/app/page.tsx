@@ -1,10 +1,10 @@
-import ActiveLabel from './components/active-lable';
+import StatusLabel, { Status } from './components/status-lable';
 
 export default function Home() {
   return (
     <main>
-      <h1>Home page</h1>
-      <ActiveLabel>Active</ActiveLabel>
+      <h1 className="text-xl">Home page</h1>
+      <StatusLabel status={Status.Active}>Active</StatusLabel>
     </main>
   );
 }
