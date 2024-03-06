@@ -1,4 +1,5 @@
 import StatusLabel, { Status } from './components/status-lable';
+import { headers } from 'next/headers';
 
 export default function Home() {
   return (
