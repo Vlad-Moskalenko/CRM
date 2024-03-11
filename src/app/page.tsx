@@ -1,7 +1,9 @@
+import Header from './components/header';
+
 export default function Home() {
   return (
     <main>
-      <h1 className="text-xl">Home page</h1>
+      <Header>Home page</Header>
     </main>
   );
 }
